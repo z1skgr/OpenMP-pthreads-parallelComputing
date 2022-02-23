@@ -44,10 +44,21 @@ D:      abababcabababcd
 * Understanding of the SW algorithm
 
 ## How to run
-### Reference
-1. Run in command-line flags and arguments on linux terminal
+
+1. GCC installation
 ```
-./<project name> -name ID -input PATH -match INT1 -mismatch INT2 -gap INT3
+$ gcc --version
+$ sudo apt install gcc
+```
+### Reference
+1. Compile .c file
+```
+gcc -o newserial newserial.c
+```
+
+2. Run in command-line flags and arguments on linux terminal
+```
+./newserial -name ID -input PATH -match INT1 -mismatch INT2 -gap INT3
 ```
 where 
 * ID => string for .out file
@@ -56,18 +67,24 @@ where
 
 
 ### OpenMP
-1. GCC installation
-```
-$ gcc --version
-$ sudo apt install gcc
-```
-2. OpenMP config
+
+1. OpenMP config
 ```
 $ echo |cpp -fopenmp -dM |grep -i open
 $ sudo apt install libomp-dev
-$ export OMP_NUM_THREADS=8
 ```
 
+3. Setting the number of threads
+```
+$ export OMP_NUM_THREADS=8 [^9]
+```
+
+4. Run in command-line flags and arguments on linux terminal
+```
+gcc -fopenmp -o OMPX <OMPa.c>
+./OMPX -name ID -input PATH -match INT1 -mismatch INT2 -gap INT3 -threads INT4
+```
+where X is the preference on OMP implementation (3 implementation of OMP based on task granularity [^10] the different computation-to-communication ratio)
 ### Pthreads
 
 ## Setup
@@ -82,7 +99,8 @@ $ export OMP_NUM_THREADS=8
 [^6]: https://computing.llnl.gov/tutorials/pthreads/
 [^7]: http://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html
 [^8]: https://www.ibm.com/developerworks/library/l-posix1/
-
+[^9]: Default number of threads (ignoring this command) is defined from the specification of CPU
+[^10]: https://en.wikipedia.org/wiki/Granularity_(parallel_computing)#:~:text=In%20parallel%20computing%2C%20granularity%20%28or%20grain%20size%29%20of,communication%20overhead%20between%20multiple%20processors%20or%20processing%20elements.
 
 
 
