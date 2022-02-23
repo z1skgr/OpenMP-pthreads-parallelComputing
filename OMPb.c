@@ -3,7 +3,7 @@
             + Name        : OMPb.c                               +
             + Author      : Christos Z,                          +
             + Description : Open Mp formation.                   +
-            + 				                                     +
+            + 				                         +
             +                                                    +
             ======================================================
  */
