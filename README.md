@@ -5,7 +5,7 @@
 
 ## Table of contents
 * [General Info](#general-information)
-* [Features](#Features)
+* [Features](#features)
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
 * [How to run](#how-to-run)
@@ -13,15 +13,13 @@
 
 
 ## General Information
-OpenMP Application Protocol Interface (API) and subset of functions of POSIX threads standard (pthreads) to speed up the Smith-Waterman algorithm for local
-alignment of sequences. A simplified form of omega statistic, to detect positive selection in DNA sequences. Exports performance statistics. 
-Applied for N random data.
+_**OpenMP Application Protocol Interface (API)**_ and subset of functions of _**POSIX threadsstandard (pthreads) to speed up the Smith-Waterman algorithm for local
+alignment of sequences. A simplified form of omega statistic, to detect positive selection in DNA sequences. Exports performance statistics. Applied for *N* random data.
  
 
-## Features/Parallization
+## Features
 * Serial program on SW algorithm
-* Parallel	Programming	Models (Jam, Unroll)
-* Standards (SSE, OpenMP, Pthreads)
+* Parallel Standards (_SSE, OpenMP, Pthreads_)
 
 Benchmarked on Intel(R) Core(TM) i7-1065G7 @ 1.30GHz 1.50 GHz with 8GB DDR3 memory.
 
@@ -85,9 +83,31 @@ gcc -fopenmp -o OMPX <OMPa.c>
 ./OMPX -name ID -input PATH -match INT1 -mismatch INT2 -gap INT3 -threads INT4
 ```
 where X is the preference on OMP implementation (3 implementation of OMP based on task granularity [^10] the different computation-to-communication ratio)
+* OMPa : Fine grained
+* OMPb : Fine grained
+* OMPd : Course grained
+
 ### Pthreads
 
-## Setup
+1. Run in command-line flags and arguments on linux terminal
+```
+gcc -pthread  POSIXX.c -o POSIXX.
+./POSIXX -name ID -input PATH -match INT1 -mismatch INT2 -gap INT3 -threads INT4
+```
+where X is the preference on POSIX implementation (2  implementation of POSIX based on task granularity [^10] the different computation-to-communication ratio)
+
+* POSIXa : Fine
+* POSIXc : Course
+
+
+See `scripting.sh` for more..
+
+
+# Setup
+Script  variables initialized as 
+* N = 10000000. 
+* # threads = [2 4]
+* # processors = [2 4].
 
 
 ## Acknowledgements
@@ -101,8 +121,5 @@ where X is the preference on OMP implementation (3 implementation of OMP based o
 [^8]: https://www.ibm.com/developerworks/library/l-posix1/
 [^9]: Default number of threads (ignoring this command) is defined from the specification of CPU
 [^10]: https://en.wikipedia.org/wiki/Granularity_(parallel_computing)#:~:text=In%20parallel%20computing%2C%20granularity%20%28or%20grain%20size%29%20of,communication%20overhead%20between%20multiple%20processors%20or%20processing%20elements.
+[^11]: Run `scripting.sh` to compile and run all files. Must be executable. 
 
-
-
-# How to run
-Run script.h to compile and run all the files. Script must be executable to run it. Script  variables are initialized with number of sampling N = 10000000 for all implementations. The number of threads used is 2 or 4. The number of processors is 2 or 4.
