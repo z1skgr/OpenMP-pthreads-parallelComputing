@@ -112,7 +112,8 @@ Script  variables initialized as:
 
 
 ## Acknowledgements
-[^1]: 
+* This project was implemented for the requirements of the lesson Architecture of Parallel and Distributed Computers
+
 [^1]: https://en.wikipedia.org/wiki/Smith-Waterman_algorithm
 [^2]: https://en.wikipedia.org/wiki/Smith-Waterman_algorithm#Linear
 [^3]: https://computing.llnl.gov/tutorials/openMP/
@@ -123,4 +124,5 @@ Script  variables initialized as:
 [^8]: Default number of threads (ignoring this command) is defined from the specification of CPU
 [^9]: https://en.wikipedia.org/wiki/Granularity_(parallel_computing)#:~:text=In%20parallel%20computing%2C%20granularity%20%28or%20grain%20size%29%20of,communication%20overhead%20between%20multiple%20processors%20or%20processing%20elements.
 [^10]: Run `scripting.sh` to compile and run all files. Must be executable. 
+
 
