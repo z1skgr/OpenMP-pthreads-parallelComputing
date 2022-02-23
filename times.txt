@@ -1,0 +1,489 @@
+------------------SERIAL
+#1
+--------
+Results:
+A) Number of pairs Q-D:1 pair(s)
+B) Number of cells:403 cells
+C) Number of traceback steps:1 step(s)
+D) Execution Time:0.000406 s
+E) Calculation Time:0.000041 s
+F) Traceback Time:0.000017 s
+G) CUPS on execution time:992545 cells
+H) CUPS on calculation time:9827352 cells
+-----------------------------------------------
+#2
+
+Results:
+A) Number of pairs Q-D:1 pair(s)
+B) Number of cells:1173 cells
+C) Number of traceback steps:3 step(s)
+D) Execution Time:0.000406 s
+E) Calculation Time:0.000085 s
+F) Traceback Time:0.000026 s
+G) CUPS on execution time:2428390 cells
+H) CUPS on calculation time:13781285 cells
+
+-------------------------------------------------
+#3
+Results:
+A) Number of pairs Q-D:1 pair(s)
+B) Number of cells:3939 cells
+C) Number of traceback steps:1 step(s)
+D) Execution Time:0.000406 s
+E) Calculation Time:0.000244 s
+F) Traceback Time:0.000037 s
+G) CUPS on execution time:6478966 cells
+H) CUPS on calculation time:16149915 cells
+--------------------------------------------------------
+#4
+Results:
+A) Number of pairs Q-D:1 pair(s)
+B) Number of cells:14809 cells
+C) Number of traceback steps:7 step(s)
+D) Execution Time:0.001026 s
+E) Calculation Time:0.000556 s
+F) Traceback Time:0.000132 s
+G) CUPS on execution time:14434917 cells
+H) CUPS on calculation time:26635270 cells
+----------------------------------------------------------
+#5
+
+Results:
+A) Number of pairs Q-D:1 pair(s)
+B) Number of cells:109218 cells
+C) Number of traceback steps:1 step(s)
+D) Execution Time:0.005927 s
+E) Calculation Time:0.004534 s
+F) Traceback Time:0.000461 s
+G) CUPS on execution time:18426930 cells
+H) CUPS on calculation time:24088630 cells
+--------------------------------------------------------------
+#9
+Results:
+A) Number of pairs Q-D:1000 pair(s)
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:439.520815 s
+E) Calculation Time:377.713911 s
+F) Traceback Time:46.582488 s
+G) CUPS on execution time:45435844 cells
+H) CUPS on calculation time:52870704 cells
+---------------------------------------------------------------
+#10
+Results:
+A) Number of pairs Q-D:2000 pair(s)
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:977.429150 s
+E) Calculation Time:847.101378 s
+F) Traceback Time:97.763439 s
+G) CUPS on execution time:40870480 cells
+H) CUPS on calculation time:47158464 cells
+-------------------------------------------------------------------
+OMPA 1 thread
+#9
+Results:
+A) Number of pairs Q-D:1000 pair(s)
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:432.450380 s
+E) Calculation Time:368.664902 s
+F) Traceback Time:48.241051 s
+G) CUPS on execution time:46178708 cells
+H) CUPS on calculation time:54168432 cells
+-----------------------------------------------------------------------------------
+OMPA 1 thread
+#10
+Results:
+A) Number of pairs Q-D:2000 pair(s)
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:869.342371 s
+E) Calculation Time:741.007671 s
+F) Traceback Time:96.904922 s
+G) CUPS on execution time:45951976 cells
+H) CUPS on calculation time:53910372 cells
+
+-----------------------------------------------------------------------------------
+ OMPA 2 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pair(s)
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:299.857350 s
+E) Calculation Time:223.029715 s
+F) Traceback Time:55.666783 s
+G) CUPS on execution time:66598332 cells
+H) CUPS on calculation time:89539640 cells
+---------------------------------------------------------------------------------
+OMPA 2 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pair(s)
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2884 step(s)
+D) Execution Time:600.930370 s
+E) Calculation Time:446.621185 s
+F) Traceback Time:111.660548 s
+G) CUPS on execution time:66476920 cells
+H) CUPS on calculation time:89444928 cells
+
+-----------------------------------------------------------------------------------
+OMPA 3 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pair(s)
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1403 step(s)
+D) Execution Time:280.368844 s
+E) Calculation Time:208.608295 s
+F) Traceback Time:51.981486 s
+G) CUPS on execution time:71227600 cells
+H) CUPS on calculation time:95729656 cells
+-----------------------------------------------------------------------------
+OMPA 3 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pair(s)
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2880 step(s)
+D) Execution Time:604.975194 s
+E) Calculation Time:449.486941 s
+F) Traceback Time:112.817169 s
+G) CUPS on execution time:66032460 cells
+H) CUPS on calculation time:88874664 cells
+-----------------------------------------------------------------------------------
+OMPA 4 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pair(s)
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:247.496152 s
+E) Calculation Time:174.285705 s
+F) Traceback Time:52.885970 s
+G) CUPS on execution time:80688120 cells
+H) CUPS on calculation time:114581968 cells
+-------------------------------------------------------------------------
+ OMPA 4 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pair(s)
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2891 step(s)
+D) Execution Time:533.570333 s
+E) Calculation Time:379.532685 s
+F) Traceback Time:111.747461 s
+G) CUPS on execution time:74869232 cells
+H) CUPS on calculation time:105255752 cells
+-----------------------------------------------------------------------------
+OMPD 1 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pair(s)
+B) Number of cells:12492724926 cells
+C) Number of traceback steps:1407 step(s)
+D) Execution Time:262.869621 s
+E) Calculation Time:222.620021 s
+F) Traceback Time:30.400554 s
+G) CUPS on execution time:47524416 cells
+H) CUPS on calculation time:56116808 cells
+
+-----------------------------------------------------------------------------
+OMPD 1 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pair(s)
+B) Number of cells:25103851036 cells
+C) Number of traceback steps:2937 step(s)
+D) Execution Time:559.172053 s
+E) Calculation Time:469.032962 s
+F) Traceback Time:61.413881 s
+G) CUPS on execution time:44894680 cells
+H) CUPS on calculation time:53522572 cells
+
+-----------------------------------------------------------------------------
+OMPD 2 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pair(s)
+B) Number of cells:12492724926 cells
+C) Number of traceback steps:1407 step(s)
+D) Execution Time:260.806591 s
+E) Calculation Time:221.030758 s
+F) Traceback Time:30.103925 s
+G) CUPS on execution time:47900344 cells
+H) CUPS on calculation time:56520300 cells
+
+-----------------------------------------------------------------------------
+OMPD 2 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pair(s)
+B) Number of cells:25103851036 cells
+C) Number of traceback steps:2937 step(s)
+D) Execution Time:558.544530 s
+E) Calculation Time:470.560189 s
+F) Traceback Time:60.736893 s
+G) CUPS on execution time:44945120 cells
+H) CUPS on calculation time:53348864 cells
+
+-----------------------------------------------------------------------------
+OMPD 3 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pair(s)
+B) Number of cells:12492724926 cells
+C) Number of traceback steps:1407 step(s)
+D) Execution Time:258.928490 s
+E) Calculation Time:219.618948 s
+F) Traceback Time:29.808511 s
+G) CUPS on execution time:48247780 cells
+H) CUPS on calculation time:56883640 cells
+
+-----------------------------------------------------------------------------
+OMPD 3 threads
+#10
+
+Results:
+A) Number of pairs Q-D:2000 pair(s)
+B) Number of cells:25103851036 cells
+C) Number of traceback steps:2937 step(s)
+D) Execution Time:542.425973 s
+E) Calculation Time:458.230308 s
+F) Traceback Time:62.670065 s
+G) CUPS on execution time:46280696 cells
+H) CUPS on calculation time:54784352 cells
+
+-----------------------------------------------------------------------------
+OMPD 4 threads
+#9
+ Results:
+A) Number of pairs Q-D:1000 pair(s)
+B) Number of cells:12492724926 cells
+C) Number of traceback steps:1407 step(s)
+D) Execution Time:258.469434 s
+E) Calculation Time:218.993274 s
+F) Traceback Time:29.843644 s
+G) CUPS on execution time:48333472 cells
+H) CUPS on calculation time:57046160 cells
+-----------------------------------------------------------------------------
+OMPD 4 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pair(s)
+B) Number of cells:25103851036 cells
+C) Number of traceback steps:2937 step(s)
+D) Execution Time:566.904383 s
+E) Calculation Time:476.680732 s
+F) Traceback Time:62.119866 s
+G) CUPS on execution time:44282336 cells
+H) CUPS on calculation time:52663868 cells
+
+
+-----------------------------------------------------------------------------
+POSIXA 1 thread
+#9
+Results:
+A) Number of pairs Q-D:1000 pairs
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:370.427165 s
+E) Calculation Time:307.149094 s
+F) Traceback Time:44.755516 s
+G) CUPS on execution time:53910732 cells
+H) CUPS on calculation time:65017284 cells
+------------------------------------------------------------------------------
+POSIXA 1 thread
+#10
+Results:
+A) Number of pairs Q-D:2000 pairs
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:739.977550 s
+E) Calculation Time:613.739662 s
+F) Traceback Time:89.035791 s
+G) CUPS on execution time:53985420 cells
+H) CUPS on calculation time:65089488 cells
+------------------------------------------------------------------------------
+POSIXA 2 threads
+#9
+A) Number of pairs Q-D:1000 pairs
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:348.419718 s
+E) Calculation Time:291.725357 s
+F) Traceback Time:44.510156 s
+G) CUPS on execution time:57315928 cells
+H) CUPS on calculation time:68454792 cells
+------------------------------------------------------------------------------
+POSIXA 2 threads 
+#10
+Results:
+A) Number of pairs Q-D:2000 pairs
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:702.692454 s
+E) Calculation Time:587.712695 s
+F) Traceback Time:89.272610 s
+G) CUPS on execution time:56849904 cells
+H) CUPS on calculation time:67971984 cells
+-----------------------------------------------------------------------------
+POSIXA 3 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pairs
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:384.262370 s
+E) Calculation Time:321.969757 s
+F) Traceback Time:48.601015 s
+G) CUPS on execution time:51969700 cells
+H) CUPS on calculation time:62024460 cells
+
+-----------------------------------------------------------------------------
+POSIXA 3 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pairs
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:832.864206 s
+E) Calculation Time:691.515833 s
+F) Traceback Time:99.639498 s
+G) CUPS on execution time:47964600 cells
+H) CUPS on calculation time:57768740 cells
+
+-----------------------------------------------------------------------------
+POSIXA 4 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pairs
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:354.404378 s
+E) Calculation Time:296.702287 s
+F) Traceback Time:45.578604 s
+G) CUPS on execution time:56348060 cells
+H) CUPS on calculation time:67306528 cells
+
+-----------------------------------------------------------------------------
+POSIXA 4 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pairs
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:716.837633 s
+E) Calculation Time:599.296455 s
+F) Traceback Time:91.493228 s
+G) CUPS on execution time:55728100 cells
+H) CUPS on calculation time:66658160 cells
+-----------------------------------------------------------------------------
+
+
+POSIXD 1 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pairs
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:373.113231 s
+E) Calculation Time:309.396507 s
+F) Traceback Time:44.904140 s
+G) CUPS on execution time:53522624 cells
+H) CUPS on calculation time:64545008 cells
+-----------------------------------------------------------------------------
+POSIXD 1 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pairs
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:745.949357 s
+E) Calculation Time:618.617249 s
+F) Traceback Time:89.697873 s
+G) CUPS on execution time:53553232 cells
+H) CUPS on calculation time:64576280 cells
+
+-----------------------------------------------------------------------------
+POSIXD 2 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pairs
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:352.341315 s
+E) Calculation Time:295.149062 s
+F) Traceback Time:45.042277 s
+G) CUPS on execution time:56677996 cells
+H) CUPS on calculation time:67660728 cells
+
+-----------------------------------------------------------------------------
+POSIXD 2 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pairs
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:708.518332 s
+E) Calculation Time:592.903238 s
+F) Traceback Time:89.947280 s
+G) CUPS on execution time:56382452 cells
+H) CUPS on calculation time:67376928 cells
+
+-----------------------------------------------------------------------------
+POSIXD 3 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pairs
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:353.772620 s
+E) Calculation Time:296.689289 s
+F) Traceback Time:45.043845 s
+G) CUPS on execution time:56448688 cells
+H) CUPS on calculation time:67309472 cells
+
+-----------------------------------------------------------------------------
+POSIXD 3 threads
+#10
+Results:
+A) Number of pairs Q-D:2000 pairs
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:749.362947 s
+E) Calculation Time:622.088064 s
+F) Traceback Time:90.156525 s
+G) CUPS on execution time:53309280 cells
+H) CUPS on calculation time:64215988 cells
+
+-----------------------------------------------------------------------------
+POSIXD 4 threads
+#9
+Results:
+A) Number of pairs Q-D:1000 pairs
+B) Number of cells:19969999698 cells
+C) Number of traceback steps:1404 step(s)
+D) Execution Time:355.328703 s
+E) Calculation Time:297.580871 s
+F) Traceback Time:45.717553 s
+G) CUPS on execution time:56201480 cells
+H) CUPS on calculation time:67107808 cells
+
+-----------------------------------------------------------------------------
+POSIXD 4 threads
+#10
+
+Results:
+A) Number of pairs Q-D:2000 pairs
+B) Number of cells:39947999476 cells
+C) Number of traceback steps:2881 step(s)
+D) Execution Time:714.916556 s
+E) Calculation Time:597.323347 s
+F) Traceback Time:91.474216 s
+G) CUPS on execution time:55877848 cells
+H) CUPS on calculation time:66878348 cells
+
+-----------------------------------------------------------------------------
