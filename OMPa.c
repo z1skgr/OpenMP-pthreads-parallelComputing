@@ -1,6 +1,6 @@
 /*
             ======================================================
-            + Name        :newserial.c                           +
+            + Name        :OMPa.c                           +
             + Author      :Christos Z,                           +
             + Description :Open Mp formation.                    +
             + 													 +
