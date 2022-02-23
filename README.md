@@ -3,7 +3,6 @@
 
 
 
-
 ## Table of contents
 * [General Info](#general-information)
 * [Features](#features)
@@ -19,7 +18,7 @@ alignment of sequences. A simplified form of omega statistic, to detect positive
 Applied for N random data.
  
 
-## Features
+## Features/Parallization
 * Serial program on SW algorithm
 * Parallel	Programming	Models (Jam, Unroll)
 * Standards (SSE, OpenMP, Pthreads)
@@ -27,24 +26,41 @@ Applied for N random data.
 Benchmarked on Intel(R) Core(TM) i7-1065G7 @ 1.30GHz 1.50 GHz with 8GB DDR3 memory.
 
 ## Prerequisites 
-Input `.txt` files for test. D_SIZE number of pairs of sequences
+* Input `.txt` files for test. D_SIZE number of pairs of sequences
 of characters, with each sequence being on a separate line or extending to
 more lines for ease of reading.
 
+`dataset.txt`
+```
+2
+
+Q:      abc
+D:      xxxabxcxxxaabbcc
+
+Q:      aaabcd
+D:      abababcabababcd
+```
+
+* Understanding of the SW algorithm
+
 ## How to run
-1. Run in command-line flags and arguements
+### Reference
+1. Run in command-line flags and arguments on linux terminal
 ```
 ./<project name> -name ID -input PATH -match INT1 -mismatch INT2 -gap INT3
 ```
 where 
 * ID => string for output file
 * PATH => path input file
-* INT1 =>
-* INT2 =>
-* INT3 =>
+* INT => integer
+
 
 
 ### Reference
+
+### OpenMP
+
+### Pthreads
 
 ## Setup
 
@@ -60,15 +76,6 @@ where
 [^8]: https://www.ibm.com/developerworks/library/l-posix1/
 
 
-# Parallelization <br />
-
-1)Intermidiate Steps(Jam,Unroll) for SSE. <br />
-2)SSE. <br />
-3)SSE with pthreads. <br />
-4)SSE pthreads MPI.  <br />
-5)Bonus.
-
-Bonus implementation from different memory layout that gives better performance for implementation with SSE commands.
 
 
 # How to run
