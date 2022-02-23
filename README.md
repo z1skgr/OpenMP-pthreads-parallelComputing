@@ -7,6 +7,7 @@
 ## Table of contents
 * [General Info](#general-information)
 * [Features](#features)
+* [Prerequisites](#prerequisites)
 * [Setup](#setup)
 * [How to run](#how-to-run)
 * [Acknowledgements](#acknowledgements)
@@ -26,7 +27,24 @@ Applied for N random data.
 Benchmarked on Intel(R) Core(TM) i7-1065G7 @ 1.30GHz 1.50 GHz with 8GB DDR3 memory.
 
 ## Prerequisites 
+Input `.txt` files for test. D_SIZE number of pairs of sequences
+of characters, with each sequence being on a separate line or extending to
+more lines for ease of reading.
+
 ## How to run
+1. Run in command-line flags and arguements
+```
+./<project name> -name ID -input PATH -match INT1 -mismatch INT2 -gap INT3
+```
+where 
+* ID => string for output file
+* PATH => path input file
+* INT1 =>
+* INT2 =>
+* INT3 =>
+
+
+### Reference
 
 ## Setup
 
@@ -43,7 +61,7 @@ Benchmarked on Intel(R) Core(TM) i7-1065G7 @ 1.30GHz 1.50 GHz with 8GB DDR3 memo
 
 
 # Parallelization <br />
-Using reference file for parallelization. <br />
+
 1)Intermidiate Steps(Jam,Unroll) for SSE. <br />
 2)SSE. <br />
 3)SSE with pthreads. <br />
