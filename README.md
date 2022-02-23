@@ -56,6 +56,17 @@ where
 
 
 ### OpenMP
+1. GCC installation
+```
+$ gcc --version
+$ sudo apt install gcc
+```
+2. OpenMP config
+```
+$ echo |cpp -fopenmp -dM |grep -i open
+$ sudo apt install libomp-dev
+$ export OMP_NUM_THREADS=8
+```
 
 ### Pthreads
 
