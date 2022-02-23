@@ -5,7 +5,7 @@
 
 ## Table of contents
 * [General Info](#general-information)
-* [Features](#features)
+* [Features](#Features)
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
 * [How to run](#how-to-run)
@@ -28,7 +28,7 @@ Benchmarked on Intel(R) Core(TM) i7-1065G7 @ 1.30GHz 1.50 GHz with 8GB DDR3 memo
 ## Prerequisites 
 * Input `.txt` files for test. D_SIZE number of pairs of sequences
 of characters, with each sequence being on a separate line or extending to
-more lines for ease of reading.
+more lines for ease of reading. Read input file and reserve D,Q variables with variables from command line. For more info, see [How to run](#how-to-run).
 
 `dataset.txt`
 ```
