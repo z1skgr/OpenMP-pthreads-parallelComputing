@@ -50,13 +50,10 @@ D:      abababcabababcd
 ./<project name> -name ID -input PATH -match INT1 -mismatch INT2 -gap INT3
 ```
 where 
-* ID => string for output file
-* PATH => path input file
-* INT => integer
+* ID => string for .out file
+* PATH => .txt path
+* INT => int variable
 
-
-
-### Reference
 
 ### OpenMP
 
