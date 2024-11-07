@@ -42,7 +42,7 @@ D:      abababcabababcd
 
 * Understanding of the SW algorithm
 
-# Output
+## Output
 1. Total number of Q-D sequence pairs
 2. Total number of cells that got a value
 3. Total number of traceback steps
