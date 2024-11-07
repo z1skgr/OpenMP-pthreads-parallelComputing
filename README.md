@@ -15,7 +15,8 @@
 ## General Information
 _**OpenMP Application Protocol Interface (API)**_ and subset of functions of _**POSIX threadsstandard (pthreads)**_ to speed up the [Smith-Waterman algorithm](https://cs.stanford.edu/people/eroberts/courses/soco/projects/computers-and-the-hgp/smith_waterman.htm) for local
 alignment of sequences. A simplified form of omega statistic, to detect positive selection in DNA sequences. Exports performance statistics. Applied for *N* random data.
- 
+
+
 
 ## Features
 * Serial program on SW algorithm [^2][^3]
@@ -24,7 +25,7 @@ alignment of sequences. A simplified form of omega statistic, to detect positive
 Benchmarked on Intel(R) Core(TM) i7-1065G7 @ 1.30GHz 1.50 GHz with 8GB DDR3 memory.
 
 ## Prerequisites 
-* Input `.txt` files for test. D_SIZE number of pairs of sequences
+* Input `.txt` files for test. `D_SIZE` number of pairs of sequences
 of characters, with each sequence being on a separate line or extending to
 more lines for ease of reading. Read input file and reserve D,Q variables with variables from command line. For more info, see [How to run](#how-to-run).
 
@@ -41,13 +42,37 @@ D:      abababcabababcd
 
 * Understanding of the SW algorithm
 
+# Output
+1. Total number of Q-D sequence pairs
+2. Total number of cells that got a value
+3. Total number of traceback steps
+4. Total program execution time
+5. Total time to calculate cells 
+6. Total time for traceback
+7. CUPS: Cell Updates Per
+second based on the total runtime
+8. CUPS based on cell computation time. 
+
 ## How to run
+On Linux env, create a folder named `Datasets`  for your `dataset.txt`
+(in `scripting.sh` input file named `D1.txt`, `D2.txt` etc)
+
+```
+home
+└───user
+   └───Desktop
+       └───project
+           └───Datasets
+```
+Or change the path in `scripting.sh` input file executions
+
 
 1. GCC installation
 ```
 $ gcc --version
 $ sudo apt install gcc
 ```
+
 ### Reference
 1. Compile .c file
 ```
@@ -68,7 +93,7 @@ where
 
 1. OpenMP config
 ```
-$ echo |cpp -fopenmp -dM |grep -i open
+$ echo | cpp -fopenmp -dM | grep -i open
 $ sudo apt install libomp-dev
 ```
 
@@ -109,6 +134,8 @@ Script  variables initialized as:
 * N = 10000000. 
 * Threads = [2 4]
 * Processors = [2 4].
+
+
 
 
 ## Acknowledgements
